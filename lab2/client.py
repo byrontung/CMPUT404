@@ -59,7 +59,7 @@ def main():
         while True:
             data = s.recv(buffer_size)
             if not data:
-                break
+                 break
             full_data += data
         print(full_data)
     except Exception as e:
